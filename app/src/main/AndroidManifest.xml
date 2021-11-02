@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutTask">
         <activity
+            android:name=".RelativeLayoutTask"
+            android:exported="false" />
+        <activity
+            android:name=".MondayClassAssignment"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
